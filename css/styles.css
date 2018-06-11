@@ -2965,7 +2965,7 @@ html {
   height: 100%; }
 
 body {
-  background-color: #525659;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -2980,6 +2980,20 @@ h1, h2, h3, h4, h5, h6, p {
   /* IE10+/Edge */
   user-select: none;
   /* Standard */ }
+
+.landing {
+  flex: 1 0 auto;
+  /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .landing div {
+    flex: 1 0 100%; }
+  .landing .logo {
+    margin-top: -5vh;
+    max-width: 50vw; }
 
 .content {
   flex: 1 0 auto;
