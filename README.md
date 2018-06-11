@@ -1,2 +1,2 @@
 # DELABODEGA Website
-This is the new landing page the DELABODEGA site
+This is DELABODEGA, a platform that gives voiceless people an opportunity to speak out about issues in the community.
