@@ -15,9 +15,13 @@
   .footer .icons {
     margin-bottom: 2em;
     display: inline-block; }
+    .footer .icons br {
+      display: none; }
     @media screen and (max-width: 600px) {
       .footer .icons {
-        display: none; } }
+        margin-top: 2em; }
+        .footer .icons br {
+          display: block; } }
     .footer .icons li {
       -moz-transition: all .2s ease-in;
       -o-transition: all .2s ease-in;
@@ -30,7 +34,13 @@
       border-radius: 20%;
       text-align: center;
       display: inline-block; }
-      .footer .icons li:last-child {
+      @media screen and (max-width: 600px) {
+        .footer .icons li {
+          margin-bottom: 2.5em; } }
+      @media screen and (max-width: 600px) {
+        .footer .icons li:nth-child(2) {
+          margin-right: 0; } }
+      .footer .icons li:nth-child(5) {
         margin-right: 0; }
       .footer .icons li:hover, .footer .icons li:active {
         background-color: #F00; }

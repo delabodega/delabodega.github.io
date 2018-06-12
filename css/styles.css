@@ -2920,9 +2920,13 @@ button.btn-floating {
   .footer .icons {
     margin-bottom: 2em;
     display: inline-block; }
+    .footer .icons br {
+      display: none; }
     @media screen and (max-width: 600px) {
       .footer .icons {
-        display: none; } }
+        margin-top: 2em; }
+        .footer .icons br {
+          display: block; } }
     .footer .icons li {
       -moz-transition: all .2s ease-in;
       -o-transition: all .2s ease-in;
@@ -2935,7 +2939,13 @@ button.btn-floating {
       border-radius: 20%;
       text-align: center;
       display: inline-block; }
-      .footer .icons li:last-child {
+      @media screen and (max-width: 600px) {
+        .footer .icons li {
+          margin-bottom: 2.5em; } }
+      @media screen and (max-width: 600px) {
+        .footer .icons li:nth-child(2) {
+          margin-right: 0; } }
+      .footer .icons li:nth-child(5) {
         margin-right: 0; }
       .footer .icons li:hover, .footer .icons li:active {
         background-color: #F00; }
@@ -3055,6 +3065,10 @@ h1, h2, h3, h4, h5, h6, p {
       bottom: 0;
       width: 70%;
       height: 70%; }
+      @media screen and (max-width: 600px) {
+        .video-section .intro-video iframe, .video-section .intro-video object, .video-section .intro-video embed {
+          width: 100%;
+          height: 100%; } }
 
 section {
   position: relative;
@@ -3075,8 +3089,8 @@ section {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-left: 2px solid #06469F;
+  border-bottom: 2px solid #06469F;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb07 2s infinite;
