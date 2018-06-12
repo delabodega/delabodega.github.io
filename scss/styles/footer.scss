@@ -10,9 +10,15 @@
   flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  .links {
+    flex: 1 0 100%;
+  }
+
   .icons {
     @media screen and (max-width: 600px) {
       display: none;
