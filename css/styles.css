@@ -2924,7 +2924,8 @@ button.btn-floating {
       display: none; }
     @media screen and (max-width: 600px) {
       .footer .icons {
-        margin-top: 2em; }
+        margin-top: 6em;
+        margin-bottom: 4em; }
         .footer .icons br {
           display: block; } }
     .footer .icons li {

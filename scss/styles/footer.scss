@@ -23,13 +23,17 @@
     br {
       display: none;
     }
+
+    margin-bottom: 2em;
+
     @media screen and (max-width: 600px) {
-      margin-top: 2em;
+      margin-top: 6em;
+      margin-bottom: 4em;
+
       br {
         display: block;
       }
     }
-    margin-bottom: 2em;
     display: inline-block;
 
     li {
