@@ -2946,7 +2946,7 @@ button.btn-floating {
       @media screen and (max-width: 600px) {
         .footer .icons li:nth-child(2) {
           margin-right: 0; } }
-      .footer .icons li:nth-child(5) {
+      .footer .icons li:nth-child(6) {
         margin-right: 0; }
       .footer .icons li:hover, .footer .icons li:active {
         background-color: #F00; }
