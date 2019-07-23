@@ -1,0 +1,28 @@
+.content-header {
+  margin-top: 5%;
+  height: 15%;
+  h1 {
+    color: #06469F;
+  }
+}
+
+.content {
+  height: 70%;
+  margin: 0 5%;
+  border: 8px solid #A67C52;
+  border-radius: 15px;
+  text-align: center;
+
+  .inner-content {
+    border: 8px solid #F00;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    padding: 5%;
+    font-size: calc(0.6em + 1vw);
+  }
+}
+
+.landing.about-landing {
+  margin: 0 5%;
+}

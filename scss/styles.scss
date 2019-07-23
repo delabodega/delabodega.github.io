@@ -1,5 +1,9 @@
 @import "materialize/materialize";
+
+@import "pages/about";
+
 @import "styles/footer";
+@import "styles/nav";
 
 
 html {
@@ -10,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -196,7 +201,9 @@ p {
 }
 body {
   margin: 0;
-  font: 16px Sans-Serif;
+  // font: 16px Sans-Serif;
+  font-size: 16px;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 h1 {
   margin: 0 0 20px 0;
