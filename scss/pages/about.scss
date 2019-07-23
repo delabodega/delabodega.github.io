@@ -1,7 +1,10 @@
 .content-header {
-  margin-top: 5%;
+  margin-top: 5vh;
   height: 15%;
+  position: relative;
   h1 {
+    position: absolute;
+    bottom: 0;
     color: #06469F;
   }
 }
@@ -19,7 +22,7 @@
     text-align: center;
     height: 100%;
     padding: 5%;
-    font-size: calc(0.6em + 1vw);
+    font-size: calc(0.5em + 1vw);
   }
 }
 
